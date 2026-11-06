@@ -3,7 +3,7 @@
 An end-to-end commercial analytics project diagnosing customer churn dynamics, Pareto revenue concentration, cohort survivability, and behavioral segmentation using SQL and Tableau Desktop.
 
 Project Deliverables:
-Executive Presentation: [View Slide Deck (PDF)](docs/executive_presentation.pdf)
+Executive Presentation: [View Slide Deck (PDF)](docs/executive-presentation.pdf)
 Interactive Tableau Dashboard: [Tableau Public Live Viz](https://public.tableau.com/views/RetentionandRFMCaseStudy/RetailRetentionCustomerLifetimeValueLTVAnalytics)
 
 ## Summary
