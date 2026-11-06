@@ -41,7 +41,7 @@ The end-to-end analytics pipeline is organized sequentially from ingestion and h
 | **02** | `step02_data_cleaning_dedup.sql` | Hygiene | Removes duplicate records, transaction cancellations, and negative quantities. |
 | **03** | `step03_customer_aggregation.sql` | Aggregation | Groups order frequency, lifetime spend, and purchase dates per account. |
 | **04** | `step04_rfm_metrics.sql` | Feature Engineering | Computes Recency, Frequency, and Monetary parameters per customer ID. |
-| **05** | `step05_cohort_monthly_retention.sql` | Cohort Analysis | Indexes acquisition cohorts ($M_0$) and calculates relative monthly retention ($M_1$–$M_{12}$). |
+| **05** | `step05_cohort_monthly_retention.sql` | Cohort Analysis | Indexes acquisition cohorts and calculates relative monthly retention. |
 | **06** | `step06_pareto_revenue_concentration.sql` | Concentration | Uses window functions and `NTILE(10)` to compute decile revenue shares and cumulative percentages. |
 | **07** | `step07_repeat_purchase_frequency.sql` | Frequency Analysis | Segments accounts into order buckets (1, 2, 3–5, 6–10, 11+) vs. revenue shares. |
 | **08** | `step08_monthly_cohort_matrix.sql` | Presentation Mart | Formats a structured 2D cohort matrix optimized for heatmap visualization. |
