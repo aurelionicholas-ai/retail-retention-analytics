@@ -20,7 +20,7 @@ This project analyzes transactional retail data comprising **£17.3M in total re
 
 ## Tableau Executive Dashboard
 
-The interactive executive dashboard was engineered using modern SaaS dashboard principles (modular card architecture, 8px rounded corners, `#F1F5F9` canvas shading, and cross-chart interactive filtering):
+The interactive executive dashboard was engineered using modern SaaS dashboard principle:
 
 ![Tableau Dashboard Preview](docs/dashboard_preview.png)
 
